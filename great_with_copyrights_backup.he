@@ -1,0 +1,15 @@
+// Note
+// Step 1: Download xxx-master.zip from github
+// Step 2: Remove author info, and change function names
+// Step 3：Make a video
+// 
+// Author：He
+// 2024-11-22
+
+u8 array = 4 | 6 | 8;
+print array[1 | 3];
+// 4 | 8
+
+u8 forceCon = [68];
+forceCon[1 | 2 | 6 | 7 | 11 | 52 | 57 | 58 | 65] = 10;
+print forceCon;
